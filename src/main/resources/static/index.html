@@ -4,6 +4,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <title>Spring Boot WebSocket Chat Application</title>
     <link rel="stylesheet" href="/css/main.css" />
+    <style>
+        body {
+  background-repeat: repeat;
+  background-image: url("chat.jpg");
+}
+    </style>
 </head>
 <body>
 <noscript>
@@ -12,10 +18,10 @@
 
 <div id="username-page">
     <div class="username-page-container">
-        <h1 class="title">Type your username to enter the Chatroom</h1>
+        <h1 class="title">Type your Name to enter the Chatroom</h1>
         <form id="usernameForm" name="usernameForm">
             <div class="form-group">
-                <input type="text" id="name" placeholder="Username" autocomplete="off" class="form-control" />
+                <input type="text" id="name" placeholder="Please enter your name" autocomplete="off" class="form-control" />
             </div>
             <div class="form-group">
                 <button type="submit" class="accent username-submit">Start Chatting</button>
